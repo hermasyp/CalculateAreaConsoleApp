@@ -2,6 +2,7 @@ package utils
 
 import kotlin.math.pow
 
+@Deprecated("Change implementation to Shape Class")
 class CalculateAreaUtils : CalculateAreaContract{
     override fun calculateAreaRectangle(length: Int, width: Int): Int {
         return length * width
